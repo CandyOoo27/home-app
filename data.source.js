@@ -165,7 +165,11 @@ export const Content00DataSource = {
             {
               name: 'title',
               className: 'content0-block-title',
-              children: '一站式事中风险监控',
+              children: (
+                <span>
+                  <p>Requirement Management</p>
+                </span>
+              ),
             },
             {
               name: 'content',
